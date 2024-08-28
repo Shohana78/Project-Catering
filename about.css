@@ -1,0 +1,38 @@
+.section-heading{
+    text-align: center;
+    font-weight: 500;
+    color: orange;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+.section-heading h3 span{
+    color: black;
+}
+
+.customer-feedback-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.feedback-card{
+    border-radius: 15px;
+    padding: 20px;
+    width: 450px;
+    background-color: antiquewhite;
+}
+.feedback-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.feedback-content img{
+    border-radius: 15px;
+}
+
+  
